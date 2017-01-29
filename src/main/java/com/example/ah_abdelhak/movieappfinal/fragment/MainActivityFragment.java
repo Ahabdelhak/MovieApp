@@ -142,7 +142,7 @@ public class MainActivityFragment extends Fragment {
 
                 Uri builtUri = Uri.parse(MOVIEDB_BASE_URL).buildUpon()
                         .appendQueryParameter(SORT_PARAM, sort_by)
-                        .appendQueryParameter(APIKEY_PARAM, "cae57cf1e4826b64e94a38d17bc8c044")
+                        .appendQueryParameter(APIKEY_PARAM, "Add your API key here")
                         .appendQueryParameter(VOTE_COUNT_PARAM, MINIMUM_VOTE_COUNT)
                         .build();
 
