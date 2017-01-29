@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="pref_sort_movie_list_values">
+        <item name="popularity">popularity.desc</item>
+        <item name="rating">vote_average.desc</item>
+        <item name="favorite">favorite</item>
+    </string-array>
+
+    <string-array name="pref_sort_movie_list_titles">
+        <item name="popularity">Popular</item>
+        <item name="rating">Top Rated</item>
+        <item name="favorite">Favorites</item>
+    </string-array>
+
+    <string name="pref_sort_movie_key">movie_sort_by</string>
+    <string name="pref_sort_movie_title">Sort by</string>
+    <string name="pref_sort_movie_default">popularity.desc</string>
+
+
+
+</resources>
