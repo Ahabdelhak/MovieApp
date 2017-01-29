@@ -116,7 +116,7 @@ public class TrailersFragment extends Fragment {
                 Uri builtUri = Uri.parse(MOVIEDB_BASE_URL).buildUpon()
                         .appendPath(idMovie)
                         .appendPath(TRAILER_PATH)
-                        .appendQueryParameter(APIKEY_PARAM, "cae57cf1e4826b64e94a38d17bc8c044")
+                        .appendQueryParameter(APIKEY_PARAM, "Add your API key here")
                         .build();
 
                 URL url = new URL(builtUri.toString());
